@@ -1,0 +1,44 @@
+{
+  "clean_records": 12,
+  "generated_at": "2026-06-28T16:31:50.327370+00:00",
+  "metrics": {
+    "bandit_regressions": 0,
+    "clean_preservation_ci95": [
+      0.7575059933447592,
+      1.0
+    ],
+    "clean_preservation_rate": 1.0,
+    "detection_confusion": {
+      "fn": 0,
+      "fp": 0,
+      "tn": 12,
+      "tp": 12
+    },
+    "detection_f1": 1.0,
+    "detection_false_positive_rate": 0.0,
+    "detection_precision": 1.0,
+    "detection_recall": 1.0,
+    "detection_recall_ci95": [
+      0.7575059933447592,
+      1.0
+    ],
+    "end_to_end_repair_ci95": [
+      2.7755575615628914e-17,
+      0.24249400665524085
+    ],
+    "end_to_end_repair_rate": 0.0,
+    "median_patch_changed_lines": 2,
+    "patch_acceptance_rate": 0.0,
+    "peak_gpu_memory_bytes": 15480548352,
+    "strict_json_rate": 1.0,
+    "total_runtime_seconds": 69.97648939676583,
+    "unrelated_file_rewrites": 0
+  },
+  "predictions_file": "/workspace/PySecPatch-continuation/pysecpatch/results/stage6_pysecpatch-v2.predictions.jsonl",
+  "predictions_sha256": "4d91fbd50ce3f1b8db4c0ffc74315a929020b247db6cacc4b0c201147fac7373",
+  "records": 24,
+  "schema_version": 1,
+  "status": "complete",
+  "tag": "pysecpatch-v2",
+  "vulnerable_records": 12
+}

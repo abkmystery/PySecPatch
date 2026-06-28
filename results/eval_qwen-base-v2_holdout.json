@@ -1,0 +1,363 @@
+{
+  "adapter_path": null,
+  "adapter_sha256": null,
+  "audited_base_model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "batch_size": 8,
+  "dataset_sha256": "bae963584f22cf5d7d32f5c8bdb74458ff1626ae057e0ad7d6b7c7fe8af5d8f1",
+  "environment": {
+    "cuda_visible_devices": null,
+    "hardware": {
+      "cuda_available": true,
+      "cuda_device": 0,
+      "cuda_runtime": "12.4",
+      "gpu_name": "NVIDIA L40S",
+      "gpu_vram_bytes": 47665709056
+    },
+    "packages": {
+      "bitsandbytes": "0.49.2",
+      "peft": "0.19.1",
+      "torch": "2.4.1+cu124",
+      "transformers": "5.12.1",
+      "trl": "1.6.0"
+    },
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 (main, Sep  7 2024, 18:35:41) [GCC 11.4.0]"
+  },
+  "generated_at": "2026-06-28T20:41:53.566743+00:00",
+  "limit": 0,
+  "metrics": {
+    "classification": {
+      "accuracy": 0.048125,
+      "balanced_accuracy": 0.03208333333333333,
+      "f1": 0.09183064997018485,
+      "fn": 2246,
+      "fp": 800,
+      "mcc": -0.8858701360659164,
+      "precision": 0.16142557651991615,
+      "recall": 0.06416666666666666,
+      "specificity": 0.0,
+      "tn": 0,
+      "tp": 154
+    },
+    "clean_negative": {
+      "overpatch_rate": 0.01375,
+      "preservation_rate": 0.0
+    },
+    "confidence_intervals": {
+      "classification_correct": {
+        "estimate": 0.048125,
+        "lower_95": 0.0409375,
+        "upper_95": 0.0559375
+      },
+      "json_valid": {
+        "estimate": 0.9153125,
+        "lower_95": 0.905625,
+        "upper_95": 0.9253125
+      },
+      "negative_preserved": {
+        "estimate": 0.0,
+        "lower_95": 0.0,
+        "upper_95": 0.0
+      },
+      "no_dangerous_regression": {
+        "estimate": 0.06416666666666666,
+        "lower_95": 0.05458333333333333,
+        "upper_95": 0.07416666666666667
+      },
+      "security_control_pass": {
+        "estimate": 0.01625,
+        "lower_95": 0.011666666666666667,
+        "upper_95": 0.021666666666666667
+      }
+    },
+    "count": 3200,
+    "latency_seconds": {
+      "mean": 1.8127741395400152,
+      "median": 1.7295433773124387,
+      "p95": 2.395739410969326
+    },
+    "negative_count": 800,
+    "per_cwe": {
+      "CWE-022": {
+        "classification_accuracy": 0.2890625,
+        "count": 128,
+        "fixed_code_parse_rate": 0.3854166666666667,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-078": {
+        "classification_accuracy": 0.0,
+        "count": 128,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-079": {
+        "classification_accuracy": 0.0,
+        "count": 128,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-089": {
+        "classification_accuracy": 0.0,
+        "count": 128,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-090": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-094": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-113": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-117": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-1236": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-1333": {
+        "classification_accuracy": 0.03125,
+        "count": 64,
+        "fixed_code_parse_rate": 0.041666666666666664,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-1336": {
+        "classification_accuracy": 0.015625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.020833333333333332,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-200": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-209": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-276": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-295": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-306": {
+        "classification_accuracy": 0.390625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.5208333333333334,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-307": {
+        "classification_accuracy": 0.140625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.1875,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-312": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-319": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-327": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-330": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-345": {
+        "classification_accuracy": 0.03125,
+        "count": 64,
+        "fixed_code_parse_rate": 0.041666666666666664,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-347": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-352": {
+        "classification_accuracy": 0.015625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.020833333333333332,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-377": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-384": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-400": {
+        "classification_accuracy": 0.03125,
+        "count": 64,
+        "fixed_code_parse_rate": 0.041666666666666664,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-409": {
+        "classification_accuracy": 0.015625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.020833333333333332,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-434": {
+        "classification_accuracy": 0.0625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.08333333333333333,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-489": {
+        "classification_accuracy": 0.109375,
+        "count": 64,
+        "fixed_code_parse_rate": 0.14583333333333334,
+        "security_control_pass_rate": 0.10416666666666667
+      },
+      "CWE-502": {
+        "classification_accuracy": 0.13541666666666666,
+        "count": 192,
+        "fixed_code_parse_rate": 0.18055555555555555,
+        "security_control_pass_rate": 0.1527777777777778
+      },
+      "CWE-601": {
+        "classification_accuracy": 0.078125,
+        "count": 64,
+        "fixed_code_parse_rate": 0.10416666666666667,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-611": {
+        "classification_accuracy": 0.1875,
+        "count": 64,
+        "fixed_code_parse_rate": 0.25,
+        "security_control_pass_rate": 0.20833333333333334
+      },
+      "CWE-614": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-639": {
+        "classification_accuracy": 0.171875,
+        "count": 64,
+        "fixed_code_parse_rate": 0.22916666666666666,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-643": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-732": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-798": {
+        "classification_accuracy": 0.015625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.020833333333333332,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-862": {
+        "classification_accuracy": 0.078125,
+        "count": 64,
+        "fixed_code_parse_rate": 0.10416666666666667,
+        "security_control_pass_rate": 0.041666666666666664
+      },
+      "CWE-915": {
+        "classification_accuracy": 0.03125,
+        "count": 64,
+        "fixed_code_parse_rate": 0.041666666666666664,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-918": {
+        "classification_accuracy": 0.0,
+        "count": 128,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-942": {
+        "classification_accuracy": 0.0,
+        "count": 64,
+        "fixed_code_parse_rate": 0.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-943": {
+        "classification_accuracy": 0.015625,
+        "count": 64,
+        "fixed_code_parse_rate": 0.020833333333333332,
+        "security_control_pass_rate": 0.0
+      }
+    },
+    "schema_valid_rate": 0.0515625,
+    "strict_json_rate": 0.9153125,
+    "vulnerable_count": 2400,
+    "vulnerable_repair": {
+      "cwe_exact_rate": 0.004166666666666667,
+      "fixed_code_parse_rate": 0.06416666666666666,
+      "line_f1_mean": 0.0,
+      "no_dangerous_regression_rate": 0.06416666666666666,
+      "normalized_exact_rate": 0.0016666666666666668,
+      "overpatch_rate": 0.015,
+      "safe_test_parse_rate": 0.04958333333333333,
+      "security_control_pass_rate": 0.01625,
+      "structural_exact_rate": 0.0020833333333333333
+    }
+  },
+  "model_id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "model_license": "apache-2.0",
+  "model_license_status": "train_allowed",
+  "prediction_file": "/workspace/PySecPatch-base-eval/pysecpatch/results/eval_qwen-base-v2_holdout.predictions.jsonl",
+  "schema_version": 1,
+  "seed": 20260627,
+  "split": "holdout",
+  "tag": "qwen-base-v2"
+}

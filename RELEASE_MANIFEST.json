@@ -1,0 +1,209 @@
+{
+  "artifacts": {
+    "dataset_repository": {
+      "CITATION.cff": {
+        "bytes": 581,
+        "sha256": "231a2cdb7b02878dac5d9871ad314e94e5f15a985fd95b701e47c041811e3011"
+      },
+      "LICENSE": {
+        "bytes": 10258,
+        "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
+      },
+      "README.md": {
+        "bytes": 4583,
+        "sha256": "e4fef5db26657b09faa52827626e511fb376335acd586a41dddfeab87c900431"
+      },
+      "stage_a_contamination_report.json": {
+        "bytes": 6650528,
+        "sha256": "93fb75549903196d3cbeb16b1ed7c9de51361d902a58c7d9556753207e70e7f6"
+      },
+      "stage_a_holdout.jsonl": {
+        "bytes": 1885529,
+        "sha256": "fbcf7df608d00a34e7b7ae6ae52ab0a7e084e5b8d395c78ac772d0839fb0eb23"
+      },
+      "stage_a_stats.json": {
+        "bytes": 35113,
+        "sha256": "7abe37ddc970c806d242441d2430f52a667a143c32f96cc7cfaf05d4d80202e1"
+      },
+      "stage_a_test.jsonl": {
+        "bytes": 1796687,
+        "sha256": "dc897e532185c9a719b9b490812ff489862b98e3ac92c57e762f57770511d41a"
+      },
+      "stage_a_train.jsonl": {
+        "bytes": 11129594,
+        "sha256": "dd959f08dd1bdb2649815752e213e317070b8d73a8f834e364919fd30ca628c5"
+      },
+      "stage_a_validation.jsonl": {
+        "bytes": 1890406,
+        "sha256": "44afa67f146959b106b2c717ed81eff65ffc1c8b9307cfcdb863f6d69082247e"
+      },
+      "stage_b_contamination_report.json": {
+        "bytes": 33231228,
+        "sha256": "cd66c43c8459a205a3a17ea297f9c030a32414bd6dd963177039b5eb9d0084e1"
+      },
+      "stage_b_holdout.jsonl": {
+        "bytes": 22902684,
+        "sha256": "bae963584f22cf5d7d32f5c8bdb74458ff1626ae057e0ad7d6b7c7fe8af5d8f1"
+      },
+      "stage_b_independent_audit.json": {
+        "bytes": 692,
+        "sha256": "5a2eb5d6d41ee8b33d1f165ed3a0f50043ad1f3b13fb95ff99ec6142f8f08f43"
+      },
+      "stage_b_stats.json": {
+        "bytes": 61544,
+        "sha256": "f71b6e0c48b84bd82ca1c05c01737406170cc4a1b7197f96afbc550da18f9cbc"
+      },
+      "stage_b_test.jsonl": {
+        "bytes": 22012531,
+        "sha256": "d0d5f2a126220416c1890a255e301b14aa50166d6f39ff8ca0626923be73f4dd"
+      },
+      "stage_b_train.jsonl": {
+        "bytes": 246153127,
+        "sha256": "fb710aef8d1e06529d0d3d8f2952353b9ade9b76cd40f09fc614f205f9d4cdcd"
+      },
+      "stage_b_validation.jsonl": {
+        "bytes": 23079487,
+        "sha256": "ecf4019b89551ae36711955fc7ce77b15c390e0393c24ba0ba3122da3c9eeca6"
+      }
+    },
+    "model_repository": {
+      "CITATION.cff": {
+        "bytes": 543,
+        "sha256": "0d825884797a8eb529c63e56d0543272f105d65788ccf9ecd3092501f1c9c939"
+      },
+      "LICENSE": {
+        "bytes": 10258,
+        "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
+      },
+      "README.md": {
+        "bytes": 4705,
+        "sha256": "587120c650128050f2a3c2d44b86eb03700013fdb5d183900e30453e5bb8fd63"
+      },
+      "adapter_config.json": {
+        "bytes": 1109,
+        "sha256": "eb09a53c96e81a089c5c2e9cfe356ab450a6093b3d81f4885f5c7447388d1a39"
+      },
+      "adapter_model.safetensors": {
+        "bytes": 80792880,
+        "sha256": "4c2b5c7c0d2982b99de9c319e998274fc12f3aae5bf8d2c3b5db58c5864dc65b"
+      },
+      "chat_template.jinja": {
+        "bytes": 2507,
+        "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+      },
+      "tokenizer.json": {
+        "bytes": 11421892,
+        "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8"
+      },
+      "tokenizer_config.json": {
+        "bytes": 693,
+        "sha256": "8b6f658e2435ec8da6866013cb485a1d2a6559bed4bf76ed99ea68b031854b41"
+      },
+      "training_metadata.json": {
+        "bytes": 1886,
+        "sha256": "1d272fc3d188c84a6822ea90263065c443f07b8708338cd652ffb4a84b1b52d7"
+      }
+    },
+    "release_assets": {
+      "PySecPatch_Research_Manuscript.docx": {
+        "bytes": 48890,
+        "sha256": "11168f53e1bc174b638a686079413e3a929a0cbd58cb38889851ccff7eefa6b7"
+      },
+      "PySecPatch_Research_Manuscript.pdf": {
+        "bytes": 23183,
+        "sha256": "861299541b6677144770ce065d842075a00f02f6311694e015cfbde1159c0f44"
+      },
+      "pysecpatch-72k-dataset-v0.1.0.tar.gz": {
+        "bytes": 34259662,
+        "sha256": "ab589aae2dc1c3f604e0dffb65b344091e757bf6162d6c699b85bb35291d8c89"
+      },
+      "pysecpatch-7b-adapter-v0.1.0.tar.gz": {
+        "bytes": 65757511,
+        "sha256": "36619d6420259816df1202e68b9fb4189b0ee7d151ea863409b010e52759104b"
+      },
+      "pysecpatch-base-holdout-evidence-v0.1.0.tar.gz": {
+        "bytes": 1051912,
+        "sha256": "25c581e66e34d7735ad2741246c9dbf7f3c031902273a51c9b410c74fef185e4"
+      },
+      "pysecpatch-evaluation-evidence-v0.1.0.tar.gz": {
+        "bytes": 74349849,
+        "sha256": "da11107ee6a0a922850a3c177f665a6330cde14b780f516eed7700862e9b1a67"
+      },
+      "pysecpatch-sallm-evidence-v0.1.0.tar.gz": {
+        "bytes": 199632,
+        "sha256": "6cb140a898b6c97e2d6af449e8d6ffdc46a932e40a8319d57155ee297adecdaf"
+      },
+      "pysecpatch-stage6-retry-evidence-v0.1.0.tar.gz": {
+        "bytes": 49773,
+        "sha256": "7daa5b17c69094ea0d77b5d60caeb2568afa0be38d1c8b239e89df04e0cd6653"
+      }
+    }
+  },
+  "author": "Ahmed Bin Khalid",
+  "author_affiliation": "Independent Researcher",
+  "author_orcid": "https://orcid.org/0000-0002-0616-2604",
+  "base_model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "controlled_holdout": {
+    "base_accuracy": 0.048125,
+    "base_clean_preservation": 0.0,
+    "base_f1": 0.09183064997018485,
+    "base_only_correct": 21,
+    "base_security_control_pass": 0.01625,
+    "bootstrap_clusters": 50,
+    "bootstrap_samples": 10000,
+    "dataset_sha256": "bae963584f22cf5d7d32f5c8bdb74458ff1626ae057e0ad7d6b7c7fe8af5d8f1",
+    "final_accuracy": 0.9071875,
+    "final_clean_preservation": 1.0,
+    "final_f1": 0.9340439706862091,
+    "final_only_correct": 2770,
+    "final_security_control_pass": 0.8808333333333334,
+    "mcnemar_log10_p": -787.2505300492555,
+    "records": 3200
+  },
+  "external_sallm": {
+    "benchmark_revision": "0159a63daed0a88f461bbd69dd1160893e394a67",
+    "functional_pass": 0.2677083333333333,
+    "scored_prompts": 96,
+    "scored_samples": 960,
+    "secure_functional_pass": 0.09583333333333334,
+    "security_test_pass": 0.31875,
+    "upstream_missing_prompts": 4
+  },
+  "license": "Apache-2.0",
+  "model_scope": "defensive Python vulnerability triage and human-reviewed candidate repair",
+  "publication": {
+    "archival_doi": null,
+    "github_commit": null,
+    "huggingface_dataset_commit": null,
+    "huggingface_model_commit": null,
+    "preprint_identifier": null
+  },
+  "release": "0.1.0",
+  "release_status": "publication_candidate",
+  "repository_evaluation": {
+    "frozen_cases": 24,
+    "frozen_clean_preservation": 1.0,
+    "frozen_detection_f1": 1.0,
+    "frozen_end_to_end_repair": 0.0,
+    "frozen_vulnerable_cases": 12,
+    "holdout_records": 800,
+    "patch_applies": 0.38,
+    "security_control_pass": 0.34375
+  },
+  "schema_version": 1,
+  "title": "PySecPatch: Measuring the Synthetic-to-External Generalization Gap in Python Security Repair",
+  "training": {
+    "adapter_model_sha256": "4c2b5c7c0d2982b99de9c319e998274fc12f3aae5bf8d2c3b5db58c5864dc65b",
+    "adapter_tree_sha256": "8eacbd7887b51820cd0f4d0907b915d1c2ee706849a7361ce3f854d1d15cba62",
+    "released_records": 72000,
+    "stage_a_records": 12000,
+    "stage_b_records": 60000,
+    "test_or_holdout_used_for_training": 0,
+    "training_records": 56400
+  },
+  "unsupported_claims": [
+    "state-of-the-art performance",
+    "production-ready autonomous repository repair",
+    "proof that scanned code is secure"
+  ]
+}

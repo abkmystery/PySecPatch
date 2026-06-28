@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "release": "0.1.0",
+  "model": "PySecPatch-7B",
+  "base_model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "base_license": "Apache-2.0",
+  "method": "continued QLoRA supervised fine-tuning",
+  "lineage": [
+    {
+      "stage": "A",
+      "training_records": 8400,
+      "validation_records": 1200,
+      "epochs": 2.0,
+      "learning_rate": 0.0002,
+      "max_sequence_length": 4096,
+      "effective_batch_size": 8
+    },
+    {
+      "stage": "B",
+      "training_records": 48000,
+      "validation_records": 4000,
+      "epochs": 1.0,
+      "learning_rate": 0.0001,
+      "max_sequence_length": 2048,
+      "effective_batch_size": 16,
+      "optimizer": "paged_adamw_8bit",
+      "quantization": "4-bit NF4 with double quantization",
+      "train_steps": 3000,
+      "train_loss": 0.1284,
+      "validation_loss": 0.3163
+    }
+  ],
+  "lora": {
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "seed": 20260627,
+  "training_examples_total": 56400,
+  "validation_examples_total": 5200,
+  "test_or_holdout_records_used_for_training": 0,
+  "push_to_hub_during_training": false,
+  "final_adapter_sha256": "4c2b5c7c0d2982b99de9c319e998274fc12f3aae5bf8d2c3b5db58c5864dc65b",
+  "software": {
+    "python": "3.11.10",
+    "torch": "2.5.1+cu124",
+    "transformers": "5.12.1",
+    "peft": "0.19.1",
+    "trl": "1.6.0",
+    "bitsandbytes": "0.49.2",
+    "datasets": "5.0.0"
+  },
+  "provenance_note": "This release metadata removes machine-local paths and internal stage labels. Untouched trainer logs and configuration files are retained in the hashed evaluation evidence bundle."
+}

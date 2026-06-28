@@ -1,0 +1,140 @@
+{
+  "checks": {
+    "adapter_model_sha256": "4c2b5c7c0d2982b99de9c319e998274fc12f3aae5bf8d2c3b5db58c5864dc65b",
+    "apache_license_files": true,
+    "citation_cff": "pass",
+    "dataset_card_front_matter": {
+      "configs": [
+        {
+          "config_name": "stage_a",
+          "data_files": [
+            {
+              "path": "stage_a_train.jsonl",
+              "split": "train"
+            },
+            {
+              "path": "stage_a_validation.jsonl",
+              "split": "validation"
+            },
+            {
+              "path": "stage_a_test.jsonl",
+              "split": "test"
+            },
+            {
+              "path": "stage_a_holdout.jsonl",
+              "split": "holdout"
+            }
+          ]
+        },
+        {
+          "config_name": "stage_b",
+          "data_files": [
+            {
+              "path": "stage_b_train.jsonl",
+              "split": "train"
+            },
+            {
+              "path": "stage_b_validation.jsonl",
+              "split": "validation"
+            },
+            {
+              "path": "stage_b_test.jsonl",
+              "split": "test"
+            },
+            {
+              "path": "stage_b_holdout.jsonl",
+              "split": "holdout"
+            }
+          ]
+        }
+      ],
+      "language": [
+        "en"
+      ],
+      "license": "apache-2.0",
+      "pretty_name": "PySecPatch-72K",
+      "size_categories": [
+        "10K<n<100K"
+      ],
+      "tags": [
+        "python",
+        "cybersecurity",
+        "cwe",
+        "vulnerability-detection",
+        "vulnerability-repair"
+      ],
+      "task_categories": [
+        "text-classification",
+        "text-generation"
+      ]
+    },
+    "dataset_checksums": {
+      "files": 16,
+      "status": "pass"
+    },
+    "dataset_line_counts": {
+      "stage_a_holdout.jsonl": 1200,
+      "stage_a_test.jsonl": 1200,
+      "stage_a_train.jsonl": 8400,
+      "stage_a_validation.jsonl": 1200,
+      "stage_b_holdout.jsonl": 4000,
+      "stage_b_test.jsonl": 4000,
+      "stage_b_train.jsonl": 48000,
+      "stage_b_validation.jsonl": 4000
+    },
+    "dataset_total": 72000,
+    "json_files": {
+      "count": 28,
+      "status": "pass"
+    },
+    "model_and_dataset_citations": "pass",
+    "model_card_front_matter": {
+      "base_model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "datasets": [
+        "abkmystery/PySecPatch-72K"
+      ],
+      "language": [
+        "en"
+      ],
+      "library_name": "peft",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "code",
+        "python",
+        "cybersecurity",
+        "vulnerability-detection",
+        "vulnerability-repair",
+        "secure-code-generation"
+      ]
+    },
+    "model_checksums": {
+      "files": 9,
+      "status": "pass"
+    },
+    "paper": {
+      "docx_bytes": 48890,
+      "markdown_bytes": 23359,
+      "pdf_bytes": 23183,
+      "visually_reviewed_pages": 7
+    },
+    "predecessor_label_scan": "pass",
+    "python_compile": true,
+    "raw_training_args_absent": true,
+    "readable_archives": {
+      "pysecpatch-72k-dataset-v0.1.0.tar.gz": 18,
+      "pysecpatch-7b-adapter-v0.1.0.tar.gz": 11,
+      "pysecpatch-base-holdout-evidence-v0.1.0.tar.gz": 5,
+      "pysecpatch-evaluation-evidence-v0.1.0.tar.gz": 72,
+      "pysecpatch-sallm-evidence-v0.1.0.tar.gz": 27,
+      "pysecpatch-stage6-retry-evidence-v0.1.0.tar.gz": 10
+    },
+    "release_asset_checksums": {
+      "files": 8,
+      "status": "pass"
+    },
+    "release_manifest": "pass"
+  },
+  "schema_version": 1,
+  "status": "pass"
+}

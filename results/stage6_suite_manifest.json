@@ -1,0 +1,32 @@
+{
+  "clean": 12,
+  "contamination_report": "results/stage6_contamination_report.json",
+  "cwes": [
+    "CWE-022",
+    "CWE-078",
+    "CWE-089",
+    "CWE-095",
+    "CWE-502",
+    "CWE-798"
+  ],
+  "framework_styles": [
+    "cli-style",
+    "django-style",
+    "fastapi-style",
+    "flask-style",
+    "job-style",
+    "service-style",
+    "worker-style"
+  ],
+  "generated_at": "2026-06-28T12:41:44.054873+00:00",
+  "pairs": 12,
+  "records": 24,
+  "schema_version": 1,
+  "seed": 20260619,
+  "source": "generated_after_model_freeze",
+  "source_license": "Apache-2.0",
+  "status": "frozen",
+  "suite": "data/repo_benchmark.jsonl",
+  "suite_sha256": "d688af9447ca5ce73ab2f0eb5722709e76634d21e872ab755e673a8e971c3d83",
+  "vulnerable": 12
+}

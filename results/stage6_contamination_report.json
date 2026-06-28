@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-06-28T12:41:44.039314+00:00",
+  "normalised_exact_code_matches": [],
+  "pass": true,
+  "schema_version": 1,
+  "suite_sha256": "d688af9447ca5ce73ab2f0eb5722709e76634d21e872ab755e673a8e971c3d83",
+  "template_family_overlap": [],
+  "training_files_checked": [
+    {
+      "name": "train.jsonl",
+      "sha256": "dd959f08dd1bdb2649815752e213e317070b8d73a8f834e364919fd30ca628c5"
+    },
+    {
+      "name": "val.jsonl",
+      "sha256": "44afa67f146959b106b2c717ed81eff65ffc1c8b9307cfcdb863f6d69082247e"
+    },
+    {
+      "name": "test.jsonl",
+      "sha256": "dc897e532185c9a719b9b490812ff489862b98e3ac92c57e762f57770511d41a"
+    },
+    {
+      "name": "holdout.jsonl",
+      "sha256": "fbcf7df608d00a34e7b7ae6ae52ab0a7e084e5b8d395c78ac772d0839fb0eb23"
+    }
+  ]
+}

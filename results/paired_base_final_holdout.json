@@ -1,0 +1,103 @@
+{
+  "bootstrap_samples": 10000,
+  "family_clusters": 50,
+  "mcnemar": {
+    "base_only_correct": 21,
+    "discordant": 2791,
+    "exact_two_sided_log10_p": -787.2505300492555,
+    "final_only_correct": 2770
+  },
+  "metrics": {
+    "classification_correct": {
+      "base": 0.048125,
+      "cluster_bootstrap_95ci": [
+        0.79375,
+        0.9178125
+      ],
+      "difference_final_minus_base": 0.8590625000000001,
+      "final": 0.9071875,
+      "population": "all",
+      "records": 3200
+    },
+    "fixed_normalized_exact": {
+      "base": 0.0016666666666666668,
+      "cluster_bootstrap_95ci": [
+        0.74875,
+        0.9041666666666667
+      ],
+      "difference_final_minus_base": 0.8316666666666667,
+      "final": 0.8333333333333334,
+      "population": "vulnerable",
+      "records": 2400
+    },
+    "fixed_structural_exact": {
+      "base": 0.0020833333333333333,
+      "cluster_bootstrap_95ci": [
+        0.7966666666666666,
+        0.9279166666666666
+      ],
+      "difference_final_minus_base": 0.86625,
+      "final": 0.8683333333333333,
+      "population": "vulnerable",
+      "records": 2400
+    },
+    "json_valid": {
+      "base": 0.9153125,
+      "cluster_bootstrap_95ci": [
+        0.03156249999999994,
+        0.13656250000000003
+      ],
+      "difference_final_minus_base": 0.07906250000000004,
+      "final": 0.994375,
+      "population": "all",
+      "records": 3200
+    },
+    "negative_preserved": {
+      "base": 0.0,
+      "cluster_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "difference_final_minus_base": 1.0,
+      "final": 1.0,
+      "population": "negative",
+      "records": 800
+    },
+    "no_dangerous_regression": {
+      "base": 0.06416666666666666,
+      "cluster_bootstrap_95ci": [
+        0.8858333333333334,
+        0.965
+      ],
+      "difference_final_minus_base": 0.9283333333333333,
+      "final": 0.9925,
+      "population": "vulnerable",
+      "records": 2400
+    },
+    "schema_valid": {
+      "base": 0.0515625,
+      "cluster_bootstrap_95ci": [
+        0.9096875,
+        0.9715703124999999
+      ],
+      "difference_final_minus_base": 0.9428125,
+      "final": 0.994375,
+      "population": "all",
+      "records": 3200
+    },
+    "security_control_pass": {
+      "base": 0.01625,
+      "cluster_bootstrap_95ci": [
+        0.7958333333333334,
+        0.9245833333333333
+      ],
+      "difference_final_minus_base": 0.8645833333333334,
+      "final": 0.8808333333333334,
+      "population": "vulnerable",
+      "records": 2400
+    }
+  },
+  "schema_version": 1,
+  "seed": 20260627,
+  "shared_records": 3200
+}

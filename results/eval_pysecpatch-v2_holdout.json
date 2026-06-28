@@ -1,0 +1,363 @@
+{
+  "adapter_path": "/workspace/PySecPatch-continuation/pysecpatch/adapters/pysecpatch-v2",
+  "adapter_sha256": "8eacbd7887b51820cd0f4d0907b915d1c2ee706849a7361ce3f854d1d15cba62",
+  "audited_base_model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "batch_size": 8,
+  "dataset_sha256": "bae963584f22cf5d7d32f5c8bdb74458ff1626ae057e0ad7d6b7c7fe8af5d8f1",
+  "environment": {
+    "cuda_visible_devices": null,
+    "hardware": {
+      "cuda_available": true,
+      "cuda_device": 0,
+      "cuda_runtime": "12.4",
+      "gpu_name": "NVIDIA A40",
+      "gpu_vram_bytes": 47708110848
+    },
+    "packages": {
+      "bitsandbytes": "0.49.2",
+      "peft": "0.19.1",
+      "torch": "2.5.1+cu124",
+      "transformers": "5.12.1",
+      "trl": "1.6.0"
+    },
+    "platform": "Linux-6.8.0-65-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 (main, Sep  7 2024, 18:35:41) [GCC 11.4.0]"
+  },
+  "generated_at": "2026-06-28T15:08:15.994715+00:00",
+  "limit": 0,
+  "metrics": {
+    "classification": {
+      "accuracy": 0.9071875,
+      "balanced_accuracy": 0.938125,
+      "f1": 0.9340439706862091,
+      "fn": 297,
+      "fp": 0,
+      "mcc": 0.7993844486912917,
+      "precision": 1.0,
+      "recall": 0.87625,
+      "specificity": 1.0,
+      "tn": 800,
+      "tp": 2103
+    },
+    "clean_negative": {
+      "overpatch_rate": 0.0,
+      "preservation_rate": 1.0
+    },
+    "confidence_intervals": {
+      "classification_correct": {
+        "estimate": 0.9071875,
+        "lower_95": 0.8968671874999999,
+        "upper_95": 0.9178125
+      },
+      "json_valid": {
+        "estimate": 0.994375,
+        "lower_95": 0.9918671874999999,
+        "upper_95": 0.996875
+      },
+      "negative_preserved": {
+        "estimate": 1.0,
+        "lower_95": 1.0,
+        "upper_95": 1.0
+      },
+      "no_dangerous_regression": {
+        "estimate": 0.9925,
+        "lower_95": 0.98875,
+        "upper_95": 0.9954166666666666
+      },
+      "security_control_pass": {
+        "estimate": 0.8808333333333334,
+        "lower_95": 0.8670833333333333,
+        "upper_95": 0.8933333333333333
+      }
+    },
+    "count": 3200,
+    "latency_seconds": {
+      "mean": 1.9467029383560293,
+      "median": 1.9133780835545622,
+      "p95": 2.325706772430566
+    },
+    "negative_count": 800,
+    "per_cwe": {
+      "CWE-022": {
+        "classification_accuracy": 0.8203125,
+        "count": 128,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.7604166666666666
+      },
+      "CWE-078": {
+        "classification_accuracy": 1.0,
+        "count": 128,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-079": {
+        "classification_accuracy": 1.0,
+        "count": 128,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-089": {
+        "classification_accuracy": 1.0,
+        "count": 128,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-090": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-094": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-113": {
+        "classification_accuracy": 0.953125,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.9375
+      },
+      "CWE-117": {
+        "classification_accuracy": 0.8125,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.7708333333333334
+      },
+      "CWE-1236": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-1333": {
+        "classification_accuracy": 0.734375,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.5416666666666666
+      },
+      "CWE-1336": {
+        "classification_accuracy": 0.953125,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.9375
+      },
+      "CWE-200": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-209": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-276": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-295": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-306": {
+        "classification_accuracy": 0.859375,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.8125
+      },
+      "CWE-307": {
+        "classification_accuracy": 0.25,
+        "count": 64,
+        "fixed_code_parse_rate": 0.6458333333333334,
+        "security_control_pass_rate": 0.4583333333333333
+      },
+      "CWE-312": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-319": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-327": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-330": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-345": {
+        "classification_accuracy": 0.3125,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.0
+      },
+      "CWE-347": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-352": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-377": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-384": {
+        "classification_accuracy": 0.75,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.6666666666666666
+      },
+      "CWE-400": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-409": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-434": {
+        "classification_accuracy": 0.765625,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.6875
+      },
+      "CWE-489": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-502": {
+        "classification_accuracy": 1.0,
+        "count": 192,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-601": {
+        "classification_accuracy": 0.859375,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.8125
+      },
+      "CWE-611": {
+        "classification_accuracy": 0.40625,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.20833333333333334
+      },
+      "CWE-614": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-639": {
+        "classification_accuracy": 0.75,
+        "count": 64,
+        "fixed_code_parse_rate": 0.9791666666666666,
+        "security_control_pass_rate": 0.5833333333333334
+      },
+      "CWE-643": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-732": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-798": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-862": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-915": {
+        "classification_accuracy": 0.984375,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-918": {
+        "classification_accuracy": 0.7890625,
+        "count": 128,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 0.71875
+      },
+      "CWE-942": {
+        "classification_accuracy": 1.0,
+        "count": 64,
+        "fixed_code_parse_rate": 1.0,
+        "security_control_pass_rate": 1.0
+      },
+      "CWE-943": {
+        "classification_accuracy": 0.75,
+        "count": 64,
+        "fixed_code_parse_rate": 0.9791666666666666,
+        "security_control_pass_rate": 0.6666666666666666
+      }
+    },
+    "schema_valid_rate": 0.994375,
+    "strict_json_rate": 0.994375,
+    "vulnerable_count": 2400,
+    "vulnerable_repair": {
+      "cwe_exact_rate": 0.9833333333333333,
+      "fixed_code_parse_rate": 0.9920833333333333,
+      "line_f1_mean": 0.44066666666666665,
+      "no_dangerous_regression_rate": 0.9925,
+      "normalized_exact_rate": 0.8333333333333334,
+      "overpatch_rate": 0.0,
+      "safe_test_parse_rate": 0.99125,
+      "security_control_pass_rate": 0.8808333333333334,
+      "structural_exact_rate": 0.8683333333333333
+    }
+  },
+  "model_id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "model_license": "apache-2.0",
+  "model_license_status": "train_allowed",
+  "prediction_file": "/workspace/PySecPatch-continuation/pysecpatch/results/eval_pysecpatch-v2_holdout.predictions.jsonl",
+  "schema_version": 1,
+  "seed": 20260627,
+  "split": "holdout",
+  "tag": "pysecpatch-v2"
+}

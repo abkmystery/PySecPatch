@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-28T18:09:51.423056+00:00",
+  "status": "complete_with_upstream_limitations",
+  "benchmark": "SALLM",
+  "benchmark_revision": "0159a63daed0a88f461bbd69dd1160893e394a67",
+  "input_sha256": "33eb9c9ad2fce20d174ec84ff5e94cec35c8bd46fe1cf2cc47f01406f5c2a2ac",
+  "records": 96,
+  "samples": 960,
+  "total_records": 100,
+  "total_samples": 1000,
+  "upstream_fixture_missing_records": 4,
+  "upstream_fixture_missing_samples": 40,
+  "upstream_fixture_missing_ids": [
+    "Assertion_Author_A_cwe215_0.py",
+    "Assertion_Author_A_cwe306_0.py",
+    "Assertion_Author_A_cwe319_0.py",
+    "Assertion_Author_A_cwe798_0.py"
+  ],
+  "model_execution_errors": 4,
+  "infrastructure_errors": 0,
+  "bootstrap_samples": 2000,
+  "bootstrap_seed": 20260619,
+  "metrics": {
+    "compilable_rate": 1.0,
+    "functional_pass_rate": 0.2677083333333333,
+    "security_test_pass_rate": 0.31875,
+    "secure_functional_pass_rate": 0.09583333333333334,
+    "cluster_bootstrap_95ci": {
+      "functional_pass": [
+        0.19270833333333334,
+        0.35520833333333335
+      ],
+      "security_test_pass": [
+        0.23645833333333333,
+        0.403125
+      ],
+      "secure_functional_pass": [
+        0.04375,
+        0.15416666666666667
+      ]
+    },
+    "pass_at_k": {
+      "1": 0.2677083333333333,
+      "3": 0.3151909722222222,
+      "5": 0.330109126984127
+    },
+    "secure_pass_at_k": {
+      "1": 0.09583333333333333,
+      "3": 0.11510416666666667,
+      "5": 0.1226438492063492
+    },
+    "vulnerable_at_k": {
+      "1": 0.3677083333333333,
+      "3": 0.4300347222222222,
+      "5": 0.4551917989417989
+    },
+    "codeql": {
+      "finding_free_rate": 0.6260416666666667,
+      "direct_finding_rate": 0.25833333333333336,
+      "any_finding_rate": 0.37395833333333334,
+      "findings": 473
+    },
+    "full_benchmark_bounds": {
+      "functional_pass": [
+        0.257,
+        0.297
+      ],
+      "security_test_pass": [
+        0.306,
+        0.346
+      ],
+      "secure_functional_pass": [
+        0.092,
+        0.132
+      ],
+      "pass_at_k": {
+        "1": [
+          0.257,
+          0.297
+        ],
+        "3": [
+          0.3025833333333333,
+          0.34258333333333335
+        ],
+        "5": [
+          0.3169047619047619,
+          0.3569047619047619
+        ]
+      },
+      "secure_pass_at_k": {
+        "1": [
+          0.092,
+          0.132
+        ],
+        "3": [
+          0.1105,
+          0.1505
+        ],
+        "5": [
+          0.11773809523809524,
+          0.15773809523809523
+        ]
+      }
+    }
+  },
+  "by_cwe": {
+    "CWE-020": {
+      "samples": 60,
+      "functional_pass_rate": 0.4,
+      "security_test_pass_rate": 0.6666666666666666,
+      "secure_functional_pass_rate": 0.3333333333333333
+    },
+    "CWE-022": {
+      "samples": 40,
+      "functional_pass_rate": 0.25,
+      "security_test_pass_rate": 0.05,
+      "secure_functional_pass_rate": 0.05
+    },
+    "CWE-074": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-078": {
+      "samples": 100,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.37,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-079": {
+      "samples": 40,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.25,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-089": {
+      "samples": 20,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 1.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-091": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-094": {
+      "samples": 100,
+      "functional_pass_rate": 0.07,
+      "security_test_pass_rate": 0.6,
+      "secure_functional_pass_rate": 0.01
+    },
+    "CWE-095": {
+      "samples": 10,
+      "functional_pass_rate": 1.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-099": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 1.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-113": {
+      "samples": 10,
+      "functional_pass_rate": 0.9,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-116": {
+      "samples": 20,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.5,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-117": {
+      "samples": 40,
+      "functional_pass_rate": 0.225,
+      "security_test_pass_rate": 0.15,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-1204": {
+      "samples": 10,
+      "functional_pass_rate": 0.1,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-1236": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-176": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-200": {
+      "samples": 10,
+      "functional_pass_rate": 0.6,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-208": {
+      "samples": 20,
+      "functional_pass_rate": 0.9,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-209": {
+      "samples": 20,
+      "functional_pass_rate": 0.95,
+      "security_test_pass_rate": 0.45,
+      "secure_functional_pass_rate": 0.45
+    },
+    "CWE-250": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-252": {
+      "samples": 10,
+      "functional_pass_rate": 0.6,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-295": {
+      "samples": 10,
+      "functional_pass_rate": 0.8,
+      "security_test_pass_rate": 0.8,
+      "secure_functional_pass_rate": 0.8
+    },
+    "CWE-327": {
+      "samples": 40,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.25,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-338": {
+      "samples": 20,
+      "functional_pass_rate": 0.5,
+      "security_test_pass_rate": 1.0,
+      "secure_functional_pass_rate": 0.5
+    },
+    "CWE-347": {
+      "samples": 20,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-348": {
+      "samples": 20,
+      "functional_pass_rate": 0.8,
+      "security_test_pass_rate": 0.8,
+      "secure_functional_pass_rate": 0.8
+    },
+    "CWE-369": {
+      "samples": 20,
+      "functional_pass_rate": 0.55,
+      "security_test_pass_rate": 0.1,
+      "secure_functional_pass_rate": 0.05
+    },
+    "CWE-377": {
+      "samples": 20,
+      "functional_pass_rate": 0.5,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-379": {
+      "samples": 10,
+      "functional_pass_rate": 1.0,
+      "security_test_pass_rate": 1.0,
+      "secure_functional_pass_rate": 1.0
+    },
+    "CWE-400": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-434": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-502": {
+      "samples": 70,
+      "functional_pass_rate": 0.9714285714285714,
+      "security_test_pass_rate": 0.14285714285714285,
+      "secure_functional_pass_rate": 0.14285714285714285
+    },
+    "CWE-601": {
+      "samples": 20,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.5,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-611": {
+      "samples": 20,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-614": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-643": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-730": {
+      "samples": 30,
+      "functional_pass_rate": 0.16666666666666666,
+      "security_test_pass_rate": 0.5333333333333333,
+      "secure_functional_pass_rate": 0.16666666666666666
+    },
+    "CWE-776": {
+      "samples": 20,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-827": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-918": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    },
+    "CWE-943": {
+      "samples": 10,
+      "functional_pass_rate": 0.0,
+      "security_test_pass_rate": 0.0,
+      "secure_functional_pass_rate": 0.0
+    }
+  },
+  "comparability": {
+    "functional": "Uses the pinned SALLM Dockerfiles and test cases. Added container resource and network isolation does not change benchmark assertions.",
+    "codeql": "Uses the disclosed GitHub CodeQL security-extended suite bundled with the pinned CodeQL Action. It is reported separately because the SALLM paper repository does not pin the authors' CodeQL CLI or query revision."
+  },
+  "files": {
+    "input": "pysecpatch/results/external_sallm_pysecpatch-v2-sallm-t02_0.2.jsonl",
+    "functional_shards": [
+      "functional-shards/shard-0.jsonl",
+      "functional-shards/shard-1.jsonl",
+      "functional-shards/shard-2.jsonl",
+      "functional-shards/shard-3.jsonl",
+      "functional-shards/shard-4.jsonl",
+      "functional-shards/shard-5.jsonl",
+      "functional-shards/shard-6.jsonl",
+      "functional-shards/shard-7.jsonl",
+      "functional-shards/shard-8.jsonl",
+      "functional-shards/shard-9.jsonl"
+    ],
+    "codeql_summary": "codeql-evidence/codeql-summary.jsonl"
+  }
+}

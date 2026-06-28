@@ -1,0 +1,17 @@
+base_model: Qwen/Qwen2.5-Coder-7B-Instruct
+adapter_path: null
+max_seq_len: 2048
+lora_r: 32
+lora_alpha: 64
+learning_rate: 0.0001
+epochs: 1
+batch_size: 2
+eval_limit: 500
+hf_model_repo: null
+hf_dataset_repo: null
+baseline_models:
+  - Virtue-AI-HUB/VulnLLM-R-7B
+  - Qwen/Qwen2.5-Coder-7B-Instruct
+  - segolilylabs/Lily-Cybersecurity-7B-v0.2
+  - WhiteRabbitNeo/WhiteRabbitNeo-2.5-Qwen-2.5-Coder-7B
+  - fdtn-ai/Foundation-Sec-8B-Reasoning

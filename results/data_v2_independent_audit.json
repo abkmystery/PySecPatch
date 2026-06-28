@@ -1,0 +1,20 @@
+﻿{
+  "clean_negative_records": 12000,
+  "file_sha256": {
+    "v2_holdout.jsonl": "bae963584f22cf5d7d32f5c8bdb74458ff1626ae057e0ad7d6b7c7fe8af5d8f1",
+    "v2_test.jsonl": "d0d5f2a126220416c1890a255e301b14aa50166d6f39ff8ca0626923be73f4dd",
+    "v2_train.jsonl": "fb710aef8d1e06529d0d3d8f2952353b9ade9b76cd40f09fc614f205f9d4cdcd",
+    "v2_val.jsonl": "ecf4019b89551ae36711955fc7ce77b15c390e0393c24ba0ba3122da3c9eeca6"
+  },
+  "max_message_characters": 2384,
+  "records": 60000,
+  "status": "pass",
+  "task_counts": {
+    "detect": 24000,
+    "repair": 24000,
+    "repo_patch": 12000
+  },
+  "unique_conversations": 60000,
+  "unique_cwes": 43,
+  "vulnerable_records": 48000
+}

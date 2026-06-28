@@ -1,0 +1,312 @@
+{
+  "adapter": "/workspace/PySecPatch-continuation/pysecpatch/adapters/pysecpatch-v2",
+  "adapter_sha256": "8eacbd7887b51820cd0f4d0907b915d1c2ee706849a7361ce3f854d1d15cba62",
+  "batch_size": 8,
+  "dataset_sha256": "bae963584f22cf5d7d32f5c8bdb74458ff1626ae057e0ad7d6b7c7fe8af5d8f1",
+  "generated_at": "2026-06-28T16:12:23.872419+00:00",
+  "metrics": {
+    "confidence_intervals": {
+      "patch_applies": {
+        "estimate": 0.38,
+        "lower_95": 0.345,
+        "upper_95": 0.415
+      },
+      "patched_code_exact": {
+        "estimate": 0.2975,
+        "lower_95": 0.26625,
+        "upper_95": 0.33125
+      },
+      "schema_valid": {
+        "estimate": 0.9925,
+        "lower_95": 0.985,
+        "upper_95": 0.9975
+      },
+      "security_control_pass": {
+        "estimate": 0.34375,
+        "lower_95": 0.31125,
+        "upper_95": 0.38
+      }
+    },
+    "count": 800,
+    "finding_id_exact_rate": 0.9925,
+    "json_valid_rate": 0.9925,
+    "latency_seconds": {
+      "mean": 1.6641459630744067,
+      "median": 1.644613997428678
+    },
+    "no_dangerous_regression_rate": 0.3775,
+    "patch_applies_rate": 0.38,
+    "patched_code_exact_rate": 0.2975,
+    "patched_code_parseable_rate": 0.3775,
+    "per_cwe": {
+      "CWE-022": {
+        "control_pass_rate": 0.09375,
+        "count": 32,
+        "exact_patch_rate": 0.09375,
+        "patch_apply_rate": 0.15625
+      },
+      "CWE-078": {
+        "control_pass_rate": 0.0,
+        "count": 32,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-079": {
+        "control_pass_rate": 0.875,
+        "count": 32,
+        "exact_patch_rate": 0.84375,
+        "patch_apply_rate": 0.96875
+      },
+      "CWE-089": {
+        "control_pass_rate": 0.09375,
+        "count": 32,
+        "exact_patch_rate": 0.03125,
+        "patch_apply_rate": 0.125
+      },
+      "CWE-090": {
+        "control_pass_rate": 0.75,
+        "count": 16,
+        "exact_patch_rate": 0.6875,
+        "patch_apply_rate": 0.75
+      },
+      "CWE-094": {
+        "control_pass_rate": 0.875,
+        "count": 16,
+        "exact_patch_rate": 0.875,
+        "patch_apply_rate": 0.875
+      },
+      "CWE-113": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-117": {
+        "control_pass_rate": 0.25,
+        "count": 16,
+        "exact_patch_rate": 0.25,
+        "patch_apply_rate": 0.25
+      },
+      "CWE-1236": {
+        "control_pass_rate": 0.0625,
+        "count": 16,
+        "exact_patch_rate": 0.0625,
+        "patch_apply_rate": 0.0625
+      },
+      "CWE-1333": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-1336": {
+        "control_pass_rate": 0.75,
+        "count": 16,
+        "exact_patch_rate": 0.75,
+        "patch_apply_rate": 1.0
+      },
+      "CWE-200": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-209": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-276": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-295": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-306": {
+        "control_pass_rate": 0.875,
+        "count": 16,
+        "exact_patch_rate": 0.875,
+        "patch_apply_rate": 0.875
+      },
+      "CWE-307": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0625
+      },
+      "CWE-312": {
+        "control_pass_rate": 1.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 1.0
+      },
+      "CWE-319": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-327": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-330": {
+        "control_pass_rate": 1.0,
+        "count": 16,
+        "exact_patch_rate": 1.0,
+        "patch_apply_rate": 1.0
+      },
+      "CWE-345": {
+        "control_pass_rate": 0.75,
+        "count": 16,
+        "exact_patch_rate": 0.75,
+        "patch_apply_rate": 0.75
+      },
+      "CWE-347": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-352": {
+        "control_pass_rate": 1.0,
+        "count": 16,
+        "exact_patch_rate": 1.0,
+        "patch_apply_rate": 1.0
+      },
+      "CWE-377": {
+        "control_pass_rate": 0.9375,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 1.0
+      },
+      "CWE-384": {
+        "control_pass_rate": 0.875,
+        "count": 16,
+        "exact_patch_rate": 0.875,
+        "patch_apply_rate": 0.875
+      },
+      "CWE-400": {
+        "control_pass_rate": 0.125,
+        "count": 16,
+        "exact_patch_rate": 0.125,
+        "patch_apply_rate": 0.125
+      },
+      "CWE-409": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-434": {
+        "control_pass_rate": 0.875,
+        "count": 16,
+        "exact_patch_rate": 0.75,
+        "patch_apply_rate": 0.875
+      },
+      "CWE-489": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.875
+      },
+      "CWE-502": {
+        "control_pass_rate": 0.3333333333333333,
+        "count": 48,
+        "exact_patch_rate": 0.3333333333333333,
+        "patch_apply_rate": 0.3333333333333333
+      },
+      "CWE-601": {
+        "control_pass_rate": 0.8125,
+        "count": 16,
+        "exact_patch_rate": 0.8125,
+        "patch_apply_rate": 0.8125
+      },
+      "CWE-611": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-614": {
+        "control_pass_rate": 0.125,
+        "count": 16,
+        "exact_patch_rate": 0.125,
+        "patch_apply_rate": 0.25
+      },
+      "CWE-639": {
+        "control_pass_rate": 0.3125,
+        "count": 16,
+        "exact_patch_rate": 0.3125,
+        "patch_apply_rate": 0.3125
+      },
+      "CWE-643": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0625
+      },
+      "CWE-732": {
+        "control_pass_rate": 0.25,
+        "count": 16,
+        "exact_patch_rate": 0.25,
+        "patch_apply_rate": 0.25
+      },
+      "CWE-798": {
+        "control_pass_rate": 0.8125,
+        "count": 16,
+        "exact_patch_rate": 0.8125,
+        "patch_apply_rate": 0.8125
+      },
+      "CWE-862": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-915": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-918": {
+        "control_pass_rate": 0.75,
+        "count": 32,
+        "exact_patch_rate": 0.75,
+        "patch_apply_rate": 0.75
+      },
+      "CWE-942": {
+        "control_pass_rate": 0.0,
+        "count": 16,
+        "exact_patch_rate": 0.0,
+        "patch_apply_rate": 0.0
+      },
+      "CWE-943": {
+        "control_pass_rate": 0.125,
+        "count": 16,
+        "exact_patch_rate": 0.125,
+        "patch_apply_rate": 0.125
+      }
+    },
+    "relevant_file_only_rate": 0.9925,
+    "schema_valid_rate": 0.9925,
+    "security_control_pass_rate": 0.34375,
+    "summary_nonempty_rate": 0.9925
+  },
+  "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "schema_version": 1,
+  "seed": 20260627,
+  "split": "holdout",
+  "status": "complete",
+  "tag": "pysecpatch-v2"
+}

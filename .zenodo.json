@@ -1,0 +1,24 @@
+{
+  "title": "PySecPatch: Measuring the Synthetic-to-External Generalization Gap in Python Security Repair",
+  "description": "Defensive Python security model, 72,000-record corpus, layered evaluation suite, and reproducible evidence for controlled and external vulnerability-repair performance.",
+  "creators": [
+    {
+      "name": "Khalid, Ahmed Bin",
+      "affiliation": "Independent Researcher",
+      "orcid": "0000-0002-0616-2604"
+    }
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "keywords": [
+    "Python",
+    "software security",
+    "vulnerability detection",
+    "vulnerability repair",
+    "secure code generation",
+    "reproducible research"
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}
