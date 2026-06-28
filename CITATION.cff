@@ -3,8 +3,8 @@ message: "If you use PySecPatch, its dataset, or its evaluation protocol, please
 title: "PySecPatch: Defensive Python Vulnerability Triage and Repair Research Artifacts"
 type: software
 authors:
-  - family-names: Khalid
-    given-names: Ahmed Bin
+  - family-names: Bin Khalid
+    given-names: Ahmed 
     email: ahmed.khalid2108@gmail.com
     orcid: "https://orcid.org/0000-0002-0616-2604"
     affiliation: "Independent Researcher"
@@ -24,8 +24,8 @@ preferred-citation:
   type: article
   title: "PySecPatch: Measuring the Synthetic-to-External Generalization Gap in Python Security Repair"
   authors:
-    - family-names: Khalid
-      given-names: Ahmed Bin
+    - family-names: Bin Khalid
+      given-names: Ahmed 
       orcid: "https://orcid.org/0000-0002-0616-2604"
       affiliation: "Independent Researcher"
   year: 2026
