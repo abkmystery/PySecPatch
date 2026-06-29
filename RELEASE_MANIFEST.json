@@ -10,8 +10,8 @@
         "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
       },
       "README.md": {
-        "bytes": 4835,
-        "sha256": "25a5cf5363c4e8265818c30df3f6b58796ba9114b48aaf0e279be920518f981a"
+        "bytes": 4843,
+        "sha256": "d1c48586e13d7182611c2ecc44e83f0c06474674724b089a234d7eec45f0c21e"
       },
       "stage_a_contamination_report.json": {
         "bytes": 6650528,
@@ -68,16 +68,16 @@
     },
     "model_repository": {
       "CITATION.cff": {
-        "bytes": 543,
-        "sha256": "156e42f031157b78d98af0b1f8197ef3ef64ecd3c58f8158b69dc0ae091151fe"
+        "bytes": 574,
+        "sha256": "337c42ffd6b43349403283bc3dea7ed22900d08bce9edc8246f94167d1c7865e"
       },
       "LICENSE": {
         "bytes": 10258,
         "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
       },
       "README.md": {
-        "bytes": 4803,
-        "sha256": "91cc182e5f4d678d771b6edf49f9cc03201e2fd8a1b0214e9eff18148c0e2d38"
+        "bytes": 4887,
+        "sha256": "986e09e9f6c7917bec46d1422b543ac383b3df8bb30566c23b14ade2ada4cc5b"
       },
       "adapter_config.json": {
         "bytes": 1109,
@@ -173,7 +173,7 @@
   "model_scope": "defensive Python vulnerability triage and human-reviewed candidate repair",
   "publication": {
     "archival_concept_doi": "10.5281/zenodo.21015503",
-    "corrected_version_doi": null,
+    "corrected_version_doi": "10.5281/zenodo.21015885",
     "github_commit": null,
     "huggingface_dataset_commit": null,
     "huggingface_model_commit": null,

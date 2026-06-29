@@ -11,7 +11,7 @@ authors:
 version: 0.1.1
 date-released: 2026-06-28
 license: Apache-2.0
-doi: "10.5281/zenodo.21015503"
+doi: "10.5281/zenodo.21015885"
 repository-code: "https://github.com/abkmystery/PySecPatch"
 url: "https://github.com/abkmystery/PySecPatch"
 keywords:
@@ -31,5 +31,5 @@ preferred-citation:
       affiliation: "Independent Researcher"
   version: 0.1.1
   year: 2026
-  doi: "10.5281/zenodo.21015503"
+  doi: "10.5281/zenodo.21015885"
   url: "https://github.com/abkmystery/PySecPatch"

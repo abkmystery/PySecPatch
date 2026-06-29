@@ -6,7 +6,7 @@
   "datePublished": "2026-06-28",
   "description": "Defensive Python vulnerability triage, secure-code assistance, and reproducible evaluation artifacts.",
   "codeRepository": "https://github.com/abkmystery/PySecPatch",
-  "identifier": "https://doi.org/10.5281/zenodo.21015503",
+  "identifier": "https://doi.org/10.5281/zenodo.21015885",
   "license": "https://spdx.org/licenses/Apache-2.0",
   "programmingLanguage": "Python",
   "author": {
