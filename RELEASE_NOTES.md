@@ -1,4 +1,6 @@
-# PySecPatch 0.1.0 Research Preview
+# PySecPatch 0.1.1 Reproducible Research Release
+
+This patch release corrects the structured author name to given name `Ahmed` and family name `Bin Khalid`, adds the Zenodo concept DOI, and hardens the isolated Hugging Face publisher. Model weights, datasets, and evaluation results are unchanged from `0.1.0`.
 
 This release provides a reproducible defensive Python security specialization and its complete evaluation record.
 

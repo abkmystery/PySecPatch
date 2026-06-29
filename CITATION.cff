@@ -4,13 +4,14 @@ title: "PySecPatch: Defensive Python Vulnerability Triage and Repair Research Ar
 type: software
 authors:
   - family-names: Bin Khalid
-    given-names: Ahmed 
+    given-names: Ahmed
     email: ahmed.khalid2108@gmail.com
     orcid: "https://orcid.org/0000-0002-0616-2604"
     affiliation: "Independent Researcher"
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-06-28
 license: Apache-2.0
+doi: "10.5281/zenodo.21015503"
 repository-code: "https://github.com/abkmystery/PySecPatch"
 url: "https://github.com/abkmystery/PySecPatch"
 keywords:
@@ -21,11 +22,14 @@ keywords:
   - secure code generation
   - reproducible evaluation
 preferred-citation:
-  type: article
-  title: "PySecPatch: Measuring the Synthetic-to-External Generalization Gap in Python Security Repair"
+  type: software
+  title: "PySecPatch: Defensive Python Vulnerability Triage and Repair Research Artifacts"
   authors:
     - family-names: Bin Khalid
-      given-names: Ahmed 
+      given-names: Ahmed
       orcid: "https://orcid.org/0000-0002-0616-2604"
       affiliation: "Independent Researcher"
+  version: 0.1.1
   year: 2026
+  doi: "10.5281/zenodo.21015503"
+  url: "https://github.com/abkmystery/PySecPatch"

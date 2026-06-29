@@ -161,7 +161,7 @@ Training data are generated and Apache-2.0 licensed. No secrets are stored; opti
 
 ## 10. Reproducibility and Availability
 
-The release includes source code, model adapter, both dataset stages, split statistics, contamination reports, raw prediction files, paired-comparison code, frozen suite hashes, SALLM shard evidence, package versions, and SHA-256 manifests. GitHub hosts the code and concise reports; Hugging Face hosts the adapter and dataset configurations; an archival deposit provides a versioned DOI. The manuscript, citation metadata, and machine-readable CodeMeta record are distributed with the release.
+The release includes source code, model adapter, both dataset stages, split statistics, contamination reports, raw prediction files, paired-comparison code, frozen suite hashes, SALLM shard evidence, package versions, and SHA-256 manifests. GitHub hosts the code and concise reports; Hugging Face hosts the adapter and dataset configurations. Zenodo concept DOI 10.5281/zenodo.21015503 resolves to the latest archived software release, while version DOI 10.5281/zenodo.21015504 identifies the initial v0.1.0 snapshot [13]. The manuscript, citation metadata, and machine-readable CodeMeta record are distributed with the release.
 
 ## 11. Conclusion
 
@@ -191,3 +191,5 @@ PySecPatch demonstrates that focused QLoRA training can transform a general code
 [11] M. Fu, C. Tantithamthavorn, T. Le, V. Nguyen, and D. Phung. “VulRepair: A T5-Based Automated Software Vulnerability Repair.” ESEC/FSE, 2022. DOI: 10.1145/3540250.3549098.
 
 [12] M. Souppaya, K. Scarfone, and D. Dodson. “Secure Software Development Framework (SSDF) Version 1.1.” NIST SP 800-218, 2022. DOI: 10.6028/NIST.SP.800-218.
+
+[13] A. Bin Khalid. "PySecPatch: Defensive Python Vulnerability Triage and Repair Research Artifacts." Zenodo, 2026. DOI: 10.5281/zenodo.21015503.

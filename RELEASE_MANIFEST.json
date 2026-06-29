@@ -3,15 +3,15 @@
     "dataset_repository": {
       "CITATION.cff": {
         "bytes": 581,
-        "sha256": "231a2cdb7b02878dac5d9871ad314e94e5f15a985fd95b701e47c041811e3011"
+        "sha256": "c5629200f63d46e5d1ba0ee54e370f1d5e19346cf0219af03e2606f00a970a80"
       },
       "LICENSE": {
         "bytes": 10258,
         "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
       },
       "README.md": {
-        "bytes": 4583,
-        "sha256": "e4fef5db26657b09faa52827626e511fb376335acd586a41dddfeab87c900431"
+        "bytes": 4835,
+        "sha256": "25a5cf5363c4e8265818c30df3f6b58796ba9114b48aaf0e279be920518f981a"
       },
       "stage_a_contamination_report.json": {
         "bytes": 6650528,
@@ -69,15 +69,15 @@
     "model_repository": {
       "CITATION.cff": {
         "bytes": 543,
-        "sha256": "0d825884797a8eb529c63e56d0543272f105d65788ccf9ecd3092501f1c9c939"
+        "sha256": "156e42f031157b78d98af0b1f8197ef3ef64ecd3c58f8158b69dc0ae091151fe"
       },
       "LICENSE": {
         "bytes": 10258,
         "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
       },
       "README.md": {
-        "bytes": 4705,
-        "sha256": "587120c650128050f2a3c2d44b86eb03700013fdb5d183900e30453e5bb8fd63"
+        "bytes": 4803,
+        "sha256": "91cc182e5f4d678d771b6edf49f9cc03201e2fd8a1b0214e9eff18148c0e2d38"
       },
       "adapter_config.json": {
         "bytes": 1109,
@@ -101,39 +101,39 @@
       },
       "training_metadata.json": {
         "bytes": 1886,
-        "sha256": "1d272fc3d188c84a6822ea90263065c443f07b8708338cd652ffb4a84b1b52d7"
+        "sha256": "48bfdb7e76558b2ef3be78cbf26bb6de53736f8e9500b585b3b0f71e424925ac"
       }
     },
     "release_assets": {
       "PySecPatch_Research_Manuscript.docx": {
-        "bytes": 48890,
-        "sha256": "11168f53e1bc174b638a686079413e3a929a0cbd58cb38889851ccff7eefa6b7"
+        "bytes": 49018,
+        "sha256": "99f2a7c4a49462c502bf4fa86787337d9a113474c42e12f79763c01709a7f84d"
       },
       "PySecPatch_Research_Manuscript.pdf": {
-        "bytes": 23183,
-        "sha256": "861299541b6677144770ce065d842075a00f02f6311694e015cfbde1159c0f44"
+        "bytes": 23397,
+        "sha256": "dc53f49d5f49b6d362b1e518789d3000cbb83bb241c0f3153e284d4786bae4c0"
       },
-      "pysecpatch-72k-dataset-v0.1.0.tar.gz": {
-        "bytes": 34259662,
-        "sha256": "ab589aae2dc1c3f604e0dffb65b344091e757bf6162d6c699b85bb35291d8c89"
+      "pysecpatch-72k-dataset-v0.1.1.tar.gz": {
+        "bytes": 34259735,
+        "sha256": "5123dd4abe0e8d26e158b174198b9702ec9b90290f32f44c43f067ce1566a505"
       },
-      "pysecpatch-7b-adapter-v0.1.0.tar.gz": {
-        "bytes": 65757511,
-        "sha256": "36619d6420259816df1202e68b9fb4189b0ee7d151ea863409b010e52759104b"
+      "pysecpatch-7b-adapter-v0.1.1.tar.gz": {
+        "bytes": 65757567,
+        "sha256": "c21cd625453aa7a0be24e9770e8e1ddd992cff1f9044f8b80f60b12470e32c35"
       },
-      "pysecpatch-base-holdout-evidence-v0.1.0.tar.gz": {
+      "pysecpatch-base-holdout-evidence-v0.1.1.tar.gz": {
         "bytes": 1051912,
         "sha256": "25c581e66e34d7735ad2741246c9dbf7f3c031902273a51c9b410c74fef185e4"
       },
-      "pysecpatch-evaluation-evidence-v0.1.0.tar.gz": {
+      "pysecpatch-evaluation-evidence-v0.1.1.tar.gz": {
         "bytes": 74349849,
         "sha256": "da11107ee6a0a922850a3c177f665a6330cde14b780f516eed7700862e9b1a67"
       },
-      "pysecpatch-sallm-evidence-v0.1.0.tar.gz": {
+      "pysecpatch-sallm-evidence-v0.1.1.tar.gz": {
         "bytes": 199632,
         "sha256": "6cb140a898b6c97e2d6af449e8d6ffdc46a932e40a8319d57155ee297adecdaf"
       },
-      "pysecpatch-stage6-retry-evidence-v0.1.0.tar.gz": {
+      "pysecpatch-stage6-retry-evidence-v0.1.1.tar.gz": {
         "bytes": 49773,
         "sha256": "7daa5b17c69094ea0d77b5d60caeb2568afa0be38d1c8b239e89df04e0cd6653"
       }
@@ -172,13 +172,15 @@
   "license": "Apache-2.0",
   "model_scope": "defensive Python vulnerability triage and human-reviewed candidate repair",
   "publication": {
-    "archival_doi": null,
+    "archival_concept_doi": "10.5281/zenodo.21015503",
+    "corrected_version_doi": null,
     "github_commit": null,
     "huggingface_dataset_commit": null,
     "huggingface_model_commit": null,
+    "initial_version_doi": "10.5281/zenodo.21015504",
     "preprint_identifier": null
   },
-  "release": "0.1.0",
+  "release": "0.1.1",
   "release_status": "publication_candidate",
   "repository_evaluation": {
     "frozen_cases": 24,

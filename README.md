@@ -1,5 +1,7 @@
 # PySecPatch
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21015503.svg)](https://doi.org/10.5281/zenodo.21015503)
+
 PySecPatch is an open defensive Python security model and evaluation suite for vulnerability triage, CWE classification, secure-code explanation, and candidate repair generation. The release combines a two-stage QLoRA adapter for `Qwen/Qwen2.5-Coder-7B-Instruct`, a deterministic 72,000-record Python security corpus, and reproducible internal and external evaluations.
 
 PySecPatch is best used as a human-reviewed triage and secure-coding assistant. Repository-level patch application remains experimental.
@@ -94,7 +96,7 @@ PySecPatch demonstrates a large controlled-benchmark improvement over its base m
 
 ## Citation
 
-Use [CITATION.cff](CITATION.cff) or the BibTeX entry in [paper/references.bib](paper/references.bib). A DOI will be added to the citation metadata after the archival release is deposited.
+[CITATION.cff](CITATION.cff) and [paper/references.bib](paper/references.bib) provide copy-ready citation records. The all-versions software DOI is [`10.5281/zenodo.21015503`](https://doi.org/10.5281/zenodo.21015503); the initial `v0.1.0` snapshot is [`10.5281/zenodo.21015504`](https://doi.org/10.5281/zenodo.21015504).
 
 ## License
 

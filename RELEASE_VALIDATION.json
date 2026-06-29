@@ -113,21 +113,21 @@
       "status": "pass"
     },
     "paper": {
-      "docx_bytes": 48890,
-      "markdown_bytes": 23359,
-      "pdf_bytes": 23183,
+      "docx_bytes": 49018,
+      "markdown_bytes": 23641,
+      "pdf_bytes": 23397,
       "visually_reviewed_pages": 7
     },
     "predecessor_label_scan": "pass",
     "python_compile": true,
     "raw_training_args_absent": true,
     "readable_archives": {
-      "pysecpatch-72k-dataset-v0.1.0.tar.gz": 18,
-      "pysecpatch-7b-adapter-v0.1.0.tar.gz": 11,
-      "pysecpatch-base-holdout-evidence-v0.1.0.tar.gz": 5,
-      "pysecpatch-evaluation-evidence-v0.1.0.tar.gz": 72,
-      "pysecpatch-sallm-evidence-v0.1.0.tar.gz": 27,
-      "pysecpatch-stage6-retry-evidence-v0.1.0.tar.gz": 10
+      "pysecpatch-72k-dataset-v0.1.1.tar.gz": 18,
+      "pysecpatch-7b-adapter-v0.1.1.tar.gz": 11,
+      "pysecpatch-base-holdout-evidence-v0.1.1.tar.gz": 5,
+      "pysecpatch-evaluation-evidence-v0.1.1.tar.gz": 72,
+      "pysecpatch-sallm-evidence-v0.1.1.tar.gz": 27,
+      "pysecpatch-stage6-retry-evidence-v0.1.1.tar.gz": 10
     },
     "release_asset_checksums": {
       "files": 8,

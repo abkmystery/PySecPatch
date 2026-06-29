@@ -3,7 +3,7 @@
   "description": "Defensive Python security model, 72,000-record corpus, layered evaluation suite, and reproducible evidence for controlled and external vulnerability-repair performance.",
   "creators": [
     {
-      "name": "Khalid, Ahmed Bin",
+      "name": "Bin Khalid, Ahmed",
       "affiliation": "Independent Researcher",
       "orcid": "0000-0002-0616-2604"
     }
@@ -20,5 +20,6 @@
     "reproducible research"
   ],
   "upload_type": "software",
-  "access_right": "open"
+  "access_right": "open",
+  "version": "0.1.1"
 }
