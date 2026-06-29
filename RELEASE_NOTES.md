@@ -2,6 +2,8 @@
 
 This patch release corrects the structured author name to given name `Ahmed` and family name `Bin Khalid`, adds the Zenodo concept DOI, and hardens the isolated Hugging Face publisher. Model weights, datasets, and evaluation results are unchanged from `0.1.0`.
 
+Archived release DOI: [`10.5281/zenodo.21015885`](https://doi.org/10.5281/zenodo.21015885). All-versions DOI: [`10.5281/zenodo.21015503`](https://doi.org/10.5281/zenodo.21015503).
+
 This release provides a reproducible defensive Python security specialization and its complete evaluation record.
 
 ## Included
