@@ -72,6 +72,13 @@
       "files": 16,
       "status": "pass"
     },
+    "dataset_deposit": {
+      "bytes": 34259739,
+      "doi": "10.5281/zenodo.21016753",
+      "members": 18,
+      "sha256": "13dc01a60e137ea623db0931173a5c700dd3ad7cf231e244e1f3422b24f5d146",
+      "status": "pass"
+    },
     "dataset_line_counts": {
       "stage_a_holdout.jsonl": 1200,
       "stage_a_test.jsonl": 1200,
@@ -113,9 +120,9 @@
       "status": "pass"
     },
     "paper": {
-      "docx_bytes": 49018,
-      "markdown_bytes": 23641,
-      "pdf_bytes": 23397,
+      "docx_bytes": 49056,
+      "markdown_bytes": 23803,
+      "pdf_bytes": 23449,
       "visually_reviewed_pages": 7
     },
     "predecessor_label_scan": "pass",

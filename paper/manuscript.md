@@ -161,7 +161,7 @@ Training data are generated and Apache-2.0 licensed. No secrets are stored; opti
 
 ## 10. Reproducibility and Availability
 
-The release includes source code, model adapter, both dataset stages, split statistics, contamination reports, raw prediction files, paired-comparison code, frozen suite hashes, SALLM shard evidence, package versions, and SHA-256 manifests. GitHub hosts the code and concise reports; Hugging Face hosts the adapter and dataset configurations. Zenodo concept DOI 10.5281/zenodo.21015503 resolves to the latest archived software release, while version DOI 10.5281/zenodo.21015504 identifies the initial v0.1.0 snapshot [13]. The manuscript, citation metadata, and machine-readable CodeMeta record are distributed with the release.
+The release includes source code, model adapter, both dataset stages, split statistics, contamination reports, raw prediction files, paired-comparison code, frozen suite hashes, SALLM shard evidence, package versions, and SHA-256 manifests. GitHub hosts the code and concise reports; Hugging Face hosts the adapter and dataset configurations. Zenodo concept DOI 10.5281/zenodo.21015503 resolves to the latest archived software release [13]. The independently archived PySecPatch-72K dataset is identified by DOI 10.5281/zenodo.21016753 [14]. The manuscript, citation metadata, and machine-readable CodeMeta record are distributed with the release.
 
 ## 11. Conclusion
 
@@ -193,3 +193,5 @@ PySecPatch demonstrates that focused QLoRA training can transform a general code
 [12] M. Souppaya, K. Scarfone, and D. Dodson. “Secure Software Development Framework (SSDF) Version 1.1.” NIST SP 800-218, 2022. DOI: 10.6028/NIST.SP.800-218.
 
 [13] A. Bin Khalid. "PySecPatch: Defensive Python Vulnerability Triage and Repair Research Artifacts." Zenodo, 2026. DOI: 10.5281/zenodo.21015503.
+
+[14] A. Bin Khalid. "PySecPatch-72K: A Family-Disjoint Python Security Triage and Repair Corpus." Zenodo, 2026. DOI: 10.5281/zenodo.21016753.

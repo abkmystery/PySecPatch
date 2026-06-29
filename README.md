@@ -98,6 +98,8 @@ PySecPatch demonstrates a large controlled-benchmark improvement over its base m
 
 [CITATION.cff](CITATION.cff) and [paper/references.bib](paper/references.bib) provide copy-ready citation records. Cite the current `v0.1.1` archive as [`10.5281/zenodo.21015885`](https://doi.org/10.5281/zenodo.21015885). The all-versions DOI is [`10.5281/zenodo.21015503`](https://doi.org/10.5281/zenodo.21015503), and the initial `v0.1.0` snapshot is [`10.5281/zenodo.21015504`](https://doi.org/10.5281/zenodo.21015504).
 
+The independently archived PySecPatch-72K dataset should be cited as [`10.5281/zenodo.21016753`](https://doi.org/10.5281/zenodo.21016753).
+
 ## License
 
 Code, generated data, and adapter artifacts are released under Apache License 2.0. The base model is not redistributed.

@@ -2,16 +2,16 @@
   "artifacts": {
     "dataset_repository": {
       "CITATION.cff": {
-        "bytes": 581,
-        "sha256": "c5629200f63d46e5d1ba0ee54e370f1d5e19346cf0219af03e2606f00a970a80"
+        "bytes": 612,
+        "sha256": "16f0473fab15c97595e6131bb351acde93703bcade5e3e14ca867a22af7bfdd2"
       },
       "LICENSE": {
         "bytes": 10258,
         "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
       },
       "README.md": {
-        "bytes": 4843,
-        "sha256": "d1c48586e13d7182611c2ecc44e83f0c06474674724b089a234d7eec45f0c21e"
+        "bytes": 4854,
+        "sha256": "cf188d704f4caf7bef821153235680340307b25fc846060b93b5a85b914585c8"
       },
       "stage_a_contamination_report.json": {
         "bytes": 6650528,
@@ -76,8 +76,8 @@
         "sha256": "b1bf03230164f7ab55ecd2284689b7bd7d7d5488e5bbb920b34b93e99f65a5b0"
       },
       "README.md": {
-        "bytes": 4887,
-        "sha256": "986e09e9f6c7917bec46d1422b543ac383b3df8bb30566c23b14ade2ada4cc5b"
+        "bytes": 4976,
+        "sha256": "9e79a5e4a77a9c7394c78c5b128c0a8bbdea428449c920cd3cd000515addd2c6"
       },
       "adapter_config.json": {
         "bytes": 1109,
@@ -174,6 +174,7 @@
   "publication": {
     "archival_concept_doi": "10.5281/zenodo.21015503",
     "corrected_version_doi": "10.5281/zenodo.21015885",
+    "dataset_doi": "10.5281/zenodo.21016753",
     "github_commit": null,
     "huggingface_dataset_commit": null,
     "huggingface_model_commit": null,
